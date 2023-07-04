@@ -11,6 +11,7 @@
   width: auto;
   height: 10rem;
   position: relative;
+  margin-top: 2rem;
 }
 
 .card {
@@ -44,6 +45,21 @@ div.card:nth-child(3) {
 
 .reorder-animation {
   animation: reorder 1s ease forwards;
+}
+
+.cards-container button {
+  font-size: 1.1rem;
+  padding: 0.5rem 0.7rem;
+  cursor: pointer;
+  background: #7148fc;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  margin-top: 2rem;
+}
+.cards-container button:disabled {
+  background: #64748b;
+  cursor: default;
 }
 
 @keyframes reorder {
